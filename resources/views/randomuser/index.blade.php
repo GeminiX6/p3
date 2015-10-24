@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Lorem Ipsum Paragraphs
+    Generate Random Users
 @stop
 
 
@@ -18,11 +18,9 @@ such as a page specific styesheets.
 
 @section('content')
 
-    <a href="p3.matthewcole.tech">Back to Home</a>
+    <h2>Generate Random Users</h2><br><br>
 
-    <h2>Lorem Ipsum Paragraphs</h2><br><br>
-
-    <form method='POST' action='/LoremIpsum' class="form-horizontal">
+    <form method='POST' action='/RandomUser' class="form-horizontal">
         <fieldset>
         <input type='hidden' name='_token' value='{{csrf_token()}}'>
 
@@ -35,23 +33,38 @@ such as a page specific styesheets.
         @endif
 
         <div class="form-group">
-        <label for="number_of_paragraphs" class="col-lg-2 control-label">Number of paragraphs</label>
+        <label for="num_users" class="col-lg-2 control-label">How many users?</label>
       <div class="col-xs-1">
-        <input type="text" class="form-control" id="number_of_paragraphs" name="number_of_paragraphs" width=10%>
+        <input type="text" class="form-control" id="num_users" name="num_users" value="3" width=10%>
       </div>
-    </div>
 
-    <div class="form-group">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button type="submit" class="btn btn-primary">Generate some paragraphs!</button>
+      <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+
+          <br>
+
+    <div class="checkbox">
+          <label>
+            <input type="checkbox" id="birthdate" name="birthdate"> Add Birthdate
+          </label>
+        </div>
+
+
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="profile" name="profile"> Add Profile Info
+          </label>
+        </div>
+
+        <br>
+
+
+        <button type="submit" class="btn btn-primary">Generate users!</button>
       </div>
     </div>
   </fieldset>
     </form>
-
-    <blockquote>
-    <?php echo implode('<p>', $paragraphs); ?>
-    </blockquote>
 @stop
 
 
