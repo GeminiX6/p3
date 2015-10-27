@@ -35,7 +35,7 @@ such as a page specific styesheets.
         @endif
 
         <div class="form-group">
-        <label for="number_of_paragraphs" class="col-lg-2 control-label">Number of paragraphs (Max: 99)</label>
+        <label for="number_of_paragraphs" class="col-lg-3 control-label">How many paragraphs? (Max: 99)</label>
       <div class="col-xs-1">
         <input type="text" class="form-control" id="number_of_paragraphs" name="number_of_paragraphs" width=10%>
       </div>

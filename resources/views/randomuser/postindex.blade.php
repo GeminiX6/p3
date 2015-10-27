@@ -36,11 +36,10 @@ such as a page specific styesheets.
         @endif
 
         <div class="form-group">
-        <label for="num_users" class="col-lg-2 control-label">How many users? (Max: 50)</label>
+        <label for="num_users" class="col-lg-3 control-label">How many users? (Max: 50)</label>
       <div class="col-xs-1">
-        <input type="text" class="form-control" id="num_users" name="num_users" value="3" width=10%>
+        <input type="text" class="form-control" id="num_users" name="num_users" width=10%>
       </div>
-    </div>
 
       <div class="form-group">
         <div class="col-lg-10 col-lg-offset-2">
@@ -49,7 +48,7 @@ such as a page specific styesheets.
 
     <div class="checkbox">
           <label>
-            <input type="checkbox" id="birthdate" name="birthdate" value='{{old('birthdate')}}'> Add Birthdate
+            <input type="checkbox" id="birthdate" name="birthdate"> Add Birthdate
           </label>
         </div>
 
@@ -57,7 +56,7 @@ such as a page specific styesheets.
 
         <div class="checkbox">
           <label>
-            <input type="checkbox" id="profile" name="profile" value='{{old('profile')}}'> Add Profile Info
+            <input type="checkbox" id="profile" name="profile"> Add Profile Info
           </label>
         </div>
 
