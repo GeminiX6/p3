@@ -20,10 +20,9 @@ such as a page specific styesheets.
 
     <a href='/'>Back to Home</a>
 
-    <h2>Random Users</h2><br><br>
+    <h3>Random Users</h3><br><br>
 
     <form method='POST' action='/RandomUser' class="form-horizontal">
-        <fieldset>
         <input type='hidden' name='_token' value='{{csrf_token()}}'>
 
         @if(count($errors) > 0)
@@ -34,7 +33,6 @@ such as a page specific styesheets.
           </ul>
         @endif
 
-        <div class="form-group">
         <label for="num_users" class="col-lg-3 control-label">How many users? (Max: 50)</label>
       <div class="col-xs-1">
         <input type="text" class="form-control" id="num_users" name="num_users" value="3">
@@ -65,7 +63,6 @@ such as a page specific styesheets.
         <button type="submit" class="btn btn-primary">Generate users!</button>
       </div>
     </div>
-  </fieldset>
     </form>
 @stop
 

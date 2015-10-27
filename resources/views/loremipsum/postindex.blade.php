@@ -20,7 +20,7 @@ such as a page specific styesheets.
 
   <a href='/'>Back to Home</a>
 
-    <h2>Lorem Ipsum Paragraphs</h2><br><br>
+    <h3>Lorem Ipsum Paragraphs</h3><br><br>
 
     <form method='POST' action='/LoremIpsum' class="form-horizontal">
         <fieldset>

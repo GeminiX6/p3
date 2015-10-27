@@ -21,7 +21,7 @@ such as a page specific styesheets.
 
     <a href='/'>Back to Home</a>
 
-    <h2>Random Users</h2><br><br>
+    <h3>Random Users</h3><br><br>
 
     <form method='POST' action='/RandomUser' class="form-horizontal">
         <fieldset>
@@ -73,7 +73,9 @@ such as a page specific styesheets.
 
     @for ($i = 0; $i < $data['num_users']; $i++)
 
-    <p><h4>{{$finalUsers[$i]["name"]}}</h4><br> {{$finalUsers[$i]["address"]}} <br>
+    <h4>{{$finalUsers[$i]["name"]}}</h4>
+
+    <p>{{$finalUsers[$i]["address"]}} <br>
 
     <?php
 
@@ -95,6 +97,8 @@ such as a page specific styesheets.
      ?>
 
    </p>
+
+   <br>
 
     @endfor
   </blockquote>
