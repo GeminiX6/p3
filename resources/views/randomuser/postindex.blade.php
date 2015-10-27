@@ -73,7 +73,7 @@ such as a page specific styesheets.
 
     @for ($i = 0; $i < $data['num_users']; $i++)
 
-    <p><strong>{{$finalUsers[$i]["name"]}}</strong> <br> {{$finalUsers[$i]["address"]}} <br>
+    <p><h4>{{$finalUsers[$i]["name"]}}</h4><br> {{$finalUsers[$i]["address"]}} <br>
 
     <?php
 

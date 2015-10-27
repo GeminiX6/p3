@@ -32,7 +32,7 @@
     </section>
 
     <footer>
-      <center><a href="https://github.com/GeminiX6/p3">View on GitHub</a></center>
+      <a href="https://github.com/GeminiX6/p3">View on GitHub</a>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
