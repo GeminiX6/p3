@@ -18,7 +18,7 @@ such as a page specific styesheets.
 
 @section('content')
 
-  <a href='/'''>Back to Home</a>
+  <a href='/'>Back to Home</a>
 
     <h2>Lorem Ipsum Paragraphs</h2><br><br>
 
@@ -37,7 +37,7 @@ such as a page specific styesheets.
         <div class="form-group">
         <label for="number_of_paragraphs" class="col-lg-3 control-label">How many paragraphs? (Max: 99)</label>
       <div class="col-xs-1">
-        <input type="text" class="form-control" id="number_of_paragraphs" name="number_of_paragraphs" width=10%>
+        <input type="text" class="form-control" id="number_of_paragraphs" name="number_of_paragraphs" value="5">
       </div>
     </div>
 
