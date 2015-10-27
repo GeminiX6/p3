@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Generate Lorem Ipsum Paragraphs
+    Lorem Ipsum Paragraphs
 @stop
 
 
@@ -20,7 +20,7 @@ such as a page specific styesheets.
 
     <a href='/'>Back to Home</a>
 
-    <h2>Generate Lorem Ipsum Paragraphs</h2><br><br>
+    <h2>Lorem Ipsum Paragraphs</h2><br><br>
 
     <form method='POST' action='/LoremIpsum' class="form-horizontal">
         <fieldset>

@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Generate Random Users
+    Random Users
 @stop
 
 
@@ -20,7 +20,7 @@ such as a page specific styesheets.
 
     <a href='/'>Back to Home</a>
 
-    <h2>Generate Random Users</h2><br><br>
+    <h2>Random Users</h2><br><br>
 
     <form method='POST' action='/RandomUser' class="form-horizontal">
         <fieldset>
