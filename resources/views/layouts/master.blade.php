@@ -19,7 +19,6 @@
 </head>
 <body>
 
-  <div class="wrapper">
     <header>
         <img
         src='http://vignette3.wikia.nocookie.net/capcomdatabase/images/9/9e/MegaManEightBit.png'
@@ -40,7 +39,7 @@
 
     {{-- Yield any page specific JS files or anything else you might want at the end of the body --}}
     @yield('body')
-  </div>
+
 
 </body>
 </html>

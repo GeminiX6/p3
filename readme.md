@@ -15,8 +15,12 @@ The Lorem Ipsum generator will generate between 1 and 99 paragraphs of random Lo
 
 ## Outside Code
 
-Bootstrap: <http://getbootstrap.com/>;
-Cyborg Bootswatch: <http://bootswatch.com/cyborg/>;
-w3schools: <http://www.w3schools.com/css/default.asp>;
-Lorem Ipsum: <https://packagist.org/packages/badcow/lorem-ipsum>;
-Random User: <https://packagist.org/packages/fzaninotto/faker>;
+Bootstrap: <http://getbootstrap.com/>
+
+Cyborg Bootswatch: <http://bootswatch.com/cyborg/>
+
+w3schools: <http://www.w3schools.com/css/default.asp>
+
+Lorem Ipsum: <https://packagist.org/packages/badcow/lorem-ipsum>
+
+Random User: <https://packagist.org/packages/fzaninotto/faker>
