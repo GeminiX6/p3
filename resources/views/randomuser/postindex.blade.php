@@ -18,7 +18,8 @@ such as a page specific styesheets.
 
 @section('content')
 
-    <a href="p3.matthewcole.tech">Back to Home</a>
+
+    <a href='/'''>Back to Home</a>
 
     <h2>Generate Random Users</h2><br><br>
 
@@ -35,10 +36,11 @@ such as a page specific styesheets.
         @endif
 
         <div class="form-group">
-        <label for="num_users" class="col-lg-2 control-label">How many users?</label>
+        <label for="num_users" class="col-lg-2 control-label">How many users? (Max: 50)</label>
       <div class="col-xs-1">
         <input type="text" class="form-control" id="num_users" name="num_users" value="3" width=10%>
       </div>
+    </div>
 
       <div class="form-group">
         <div class="col-lg-10 col-lg-offset-2">
@@ -68,15 +70,22 @@ such as a page specific styesheets.
   </fieldset>
     </form>
 
+    <blockquote>
+
     @for ($i = 0; $i < $data['num_users']; $i++)
 
-    <p>{{$finalUsers[$i]["name"]}} <br> {{$finalUsers[$i]["address"]}} <br>
+    <p><strong>{{$finalUsers[$i]["name"]}}</strong> <br> {{$finalUsers[$i]["address"]}} <br>
 
     <?php
 
       if(isset($data['birthdate']))
       {
         echo $finalUsers[$i]["birthdate"];
+      }
+
+      if(isset($data['birthdate']) and isset($data['profile'])){
+
+        echo nl2br("\n");
       }
 
 
@@ -89,7 +98,7 @@ such as a page specific styesheets.
    </p>
 
     @endfor
-
+  </blockquote>
 
 @stop
 

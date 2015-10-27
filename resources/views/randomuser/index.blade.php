@@ -18,6 +18,8 @@ such as a page specific styesheets.
 
 @section('content')
 
+    <a href='/'''>Back to Home</a>
+
     <h2>Generate Random Users</h2><br><br>
 
     <form method='POST' action='/RandomUser' class="form-horizontal">
@@ -33,7 +35,7 @@ such as a page specific styesheets.
         @endif
 
         <div class="form-group">
-        <label for="num_users" class="col-lg-2 control-label">How many users?</label>
+        <label for="num_users" class="col-lg-2 control-label">How many users? (Max: 50)</label>
       <div class="col-xs-1">
         <input type="text" class="form-control" id="num_users" name="num_users" value="3" width=10%>
       </div>

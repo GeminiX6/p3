@@ -18,7 +18,7 @@ such as a page specific styesheets.
 
 @section('content')
 
-    <a href="p3.matthewcole.tech">Back to Home</a>
+  <a href='/'''>Back to Home</a>
 
     <h2>Lorem Ipsum Paragraphs</h2><br><br>
 

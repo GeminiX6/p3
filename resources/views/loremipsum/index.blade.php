@@ -18,6 +18,8 @@ such as a page specific styesheets.
 
 @section('content')
 
+    <a href='/'''>Back to Home</a>
+
     <h2>Generate Lorem Ipsum Paragraphs</h2><br><br>
 
     <form method='POST' action='/LoremIpsum' class="form-horizontal">

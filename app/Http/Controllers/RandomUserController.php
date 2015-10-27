@@ -28,7 +28,7 @@ class RandomUserController extends Controller
       //dd($request->all());
 
       $this->validate($request, [
-        'num_users' => 'required|numeric|min:1|max:99',
+        'num_users' => 'required|numeric|min:1|max:50',
         ]);
 
         $data = $request->all();

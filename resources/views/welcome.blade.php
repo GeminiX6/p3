@@ -1,45 +1,51 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layouts.master')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+@section('title')
+    Developer's Best Friend
+@stop
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+{{--
+This `head` section will be yielded right before the closing </head> tag.
+Use it to add specific things that *this* View needs in the head,
+such as a page specific styesheets.
+--}}
+@section('head')
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+@stop
 
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-    </body>
-</html>
+
+@section('content')
+
+    <h2>Developer's Best Friend!</h2><br><br>
+
+
+    <h3>Lorem Ipsum Generator</h3> <br><br>
+
+    <blockquote>
+  <p>In publishing and graphic design, lorem ipsum (derived from Latin dolorem ipsum, translated as "pain itself") is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, and page layout without being distracted by the content. It also reduces the need for the designer to come up with meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+  <small>Definition from <cite title="Wikipedia"><a href='https://en.wikipedia.org/wiki/Lorem_ipsum'>Wikipedia</a></cite></small>
+</blockquote>
+    <a href='/LoremIpsum'>Generate Lorem Ipsum Paragraphs</a> <br><br>
+
+    <h3>Random User Generator</h3> <br><br>
+
+    <blockquote>
+      <p>Random users can be generated here for populating databases or for any other use.</p>
+    </blockquote>
+
+    <a href='/RandomUser'>Generate Random Users</a>
+
+
+@stop
+
+
+{{--
+This `body` section will be yielded right before the closing </body> tag.
+Use it to add specific things that *this* View needs at the end of the body,
+such as a page specific JavaScript files.
+--}}
+@section('body')
+
+@stop
