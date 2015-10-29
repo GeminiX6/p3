@@ -21,7 +21,7 @@
 
     <header>
         <img
-        src='http://vignette3.wikia.nocookie.net/capcomdatabase/images/9/9e/MegaManEightBit.png'
+        src='img/MegaManEightBit.png'
         style='width:150px'
         alt='Developers Best Friend Logo'>
     </header>
